@@ -1,85 +1,83 @@
-body {
-    background-color: #1524f322;
-    font-family: sans-serif;
-}
+body { 
+    background-color: #1524f322; 
+    font-family: sans-serif; 
+} 
 
-#main_header {
-    background-color: rgba(5, 60, 240, 0.549);
-    text-align: center;
-}
+#main_header { 
+    background-color: rgba(5, 60, 240, 0.549); 
+    text-align: center; 
+} 
 
-#second_page_header {
-    background-color: rgba(207, 0, 248, 0.299);
-    text-align: center;
-    padding: 10px;
-}
+#second_page_header { 
+    background-color: rgba(207, 0, 248, 0.299); 
+    text-align: center; 
+    padding: 10px; 
+} 
 
-p {
-    line-height: 1.6;
-}
+p { 
+    line-height: 1.6; 
+} 
 
-.subheader {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-}
+.subheader { 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 22px; 
+} 
 
 #spots { 
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: underline;
-    text-align: center;
-}
-#favorite_spots {
-  background-color: #41acb6a2;
-  padding: 5px 150px; 
-  max-width: 300px;
-  margin: 20px auto; 
-}
+    font-weight: bold; 
+    font-size: 20px; 
+    text-decoration: underline; 
+    text-align: center; 
+} 
 
+#favorite_spots { 
+    background-color: #41acb6a2; 
+    padding: 5px 150px; 
+    max-width: 300px; 
+    margin: 20px auto; 
+} 
 
-#lake_img {
-    width: 50%;
-    border-radius: 8px;
-    display: block;
-    margin: auto;
-}
+#lake_img { 
+    width: 50%; 
+    border-radius: 8px; 
+    display: block; 
+    margin: auto; 
+} 
 
-.button {
-    background-color: #15c182a4;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    display: inline-block;
-    margin: 10px;
-}
+.button{ 
+    background-color: #15c182a4; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; 
+    font-size: 16px; 
+    display: inline-block; 
+    margin: 10px; 
+} 
 
-#lure_wrapper {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
+#lure_wrapper { 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+} 
 
-#lure_img {
-    width: 50%;
-    border-radius: 8px;
-    display: block;
-    margin: auto;
-}
+#lure_img { 
+    width: 50%; 
+    border-radius: 8px; 
+    display: block; 
+    margin: auto; 
+} 
 
-@media (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-
-  #lure_wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #favorite_spots {
-    padding: 10px;
-    max-width: 90%;
-  }
+@media (max-width: 600px) { 
+    body { 
+        font-size: 16px; 
+    } 
+    #lure_wrapper { 
+        flex-direction: column; 
+        align-items: center; 
+    } 
+    #favorite_spots { 
+        padding: 10px; 
+        max-width: 90%; 
+    } 
 }
