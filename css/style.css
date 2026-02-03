@@ -30,3 +30,9 @@ p {
   background-color: #e6f2ff;
   padding: 10px;
 }
+
+#lure_wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
