@@ -16,3 +16,17 @@ h3 {
 p {
   line-height: 1.6;
 }
+
+.subheader {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#main_header {
+  background-color: #c8f7c5;
+}
+
+#favorite_spots {
+  background-color: #e6f2ff;
+  padding: 10px;
+}
