@@ -9,6 +9,8 @@
     </head> 
     
     <body> 
+        <div class="container mt-4">
+    <!-- This header contains the page's title and intro-->
         <header id="second_page_header"> 
         <h1>Reunion Lake - More Details</h1> 
     </header> 
@@ -16,9 +18,11 @@
     <main> 
         <article> 
             <h2 class="subheader">Lures I Use at Reunion Lake</h2> 
-            <div id="lure_wrapper"> 
-                <img id="lure_img" src="./images/lures.jpg" alt="Bass Fishing Lures Photo" width="50%" > 
-                <div> <!--this div is for the text next to the image--> 
+            <div class="row align-items-center"> <!-- this div is for the image and text to be on the same line-->
+                <div class="col-md-6"> <!--this div is for the image on the left side-->
+                 <img class="img-fluid" src="./images/lures.jpg" alt="Bass Fishing Lures Photo" width="100%" > 
+                </div>
+                <div class="col-md-6"> <!--this div is for the text next to the image--> 
                     <p>When fishing at Reunion Lake, I like to use a variety of lures depending on the conditions and time. Here are some of my favorites:</p> 
                     <ul> 
                         <li>Spinnerbaits - Great for covering water quickly and attracting aggressive bass.</li> 
@@ -31,8 +35,9 @@
         </article> 
     </main> 
     <!-- This footer contains a link back to the main page --> 
-     <footer> 
-        <p class="button"><a href="index.html"> Return to the main Bass Fishing page!</a></p> 
+     <footer class="text-center mt-4"> 
+        <a href="index.html" class="btn btn-success"> Return to the main Bass Fishing page!</a> 
     </footer> 
+    </div>
     </body> 
 </html>

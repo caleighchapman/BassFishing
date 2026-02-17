@@ -18,8 +18,7 @@ p {
     line-height: 1.6; 
 } 
 
-.subheader { 
-    text-align: center; 
+.subheader {  
     font-weight: bold; 
     font-size: 22px; 
 } 
@@ -27,13 +26,12 @@ p {
 #spots { 
     font-weight: bold; 
     font-size: 20px; 
-    text-decoration: underline; 
-    text-align: center; 
+    text-decoration: underline;  
 } 
 
 #favorite_spots { 
     background-color: #41acb6a2; 
-    padding: 5px 150px; 
+    padding: 20px; 
     max-width: 300px; 
     margin: 20px auto; 
 } 
@@ -55,18 +53,6 @@ p {
     margin: 10px; 
 } 
 
-#lure_wrapper { 
-    display: flex; 
-    gap: 20px; 
-    align-items: center; 
-} 
-
-#lure_img { 
-    width: 50%; 
-    border-radius: 8px; 
-    display: block; 
-    margin: auto; 
-} 
 
 @media (max-width: 600px) { 
     body { 
